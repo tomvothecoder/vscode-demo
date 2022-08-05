@@ -1,6 +1,6 @@
 # vscode-demo
 
-A demo repository for VS Code used for talks.
+A demo repository for VS Code used for talks on VS Code features and why I use it.
 
 Related presentation: <https://docs.google.com/presentation/d/1StvV-iIbExvw0ULIcbkTNqszGkY1_yo8sj5tyIZbVJ0/edit?usp=sharing>
 
