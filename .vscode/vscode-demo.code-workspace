@@ -43,6 +43,8 @@
     // Extension settings
     // ===================
     "jupyter.notebookFileRoot": "${workspaceFolder}",
-    "autoDocstring.docstringFormat": "numpy"
+    "autoDocstring.docstringFormat": "numpy",
+    "zenMode.hideTabs": true,
+    "zenMode.hideActivityBar": true
   }
 }

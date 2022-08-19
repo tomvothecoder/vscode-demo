@@ -1,31 +1,38 @@
-
 # Conda environment for the demo.
 name: vscode-demo
 channels:
-    - conda-forge
-    - defaults
+  - conda-forge
+  - defaults
 dependencies:
-    # ==================
-    # Base
-    # ==================
-    - python=3.10.5
-    - pip=22.2.2
-    # ==================
-    # Quality Assurance
-    # ==================
-    # Used to demo VS Code's integration with QA tools.
-    - black=22.6.0
-    - flake8=4.0.1
-    - flake8-isort=4.1.1
-    - isort=5.10.1
-    - mypy=0.971
-    # Testing
-    # ==================
-    # Used to demo VS Code's integration with testing.
-    - pytest=7.1.2
-    - pytest-cov=3.0.0
-    # Developer Tools
-    # ==================
-    # Used to demo VS Code's Jupyter support.
-    - jupyterlab=3.4.4
+  # ==================
+  # Base
+  # ==================
+  - python=3.10.5
+  - pip=22.2.2
+  # ==================
+  # Examples
+  # ==================
+  - xarray=2022.06.0
+  - xcdat=0.3.1
+  - matplotlib=3.5.2
+  - xmovie=0.3.1
+  - tqdm=4.64.0
+  # ==================
+  # Quality Assurance
+  # ==================
+  # Used to demo VS Code's integration with QA tools.
+  - black=22.6.0
+  - flake8=4.0.1
+  - flake8-isort=4.1.1
+  - isort=5.10.1
+  - mypy=0.971
+  # Testing
+  # ==================
+  # Used to demo VS Code's integration with testing.
+  - pytest=7.1.2
+  - pytest-cov=3.0.0
+  # Developer Tools
+  # ==================
+  # Used to demo VS Code's Jupyter support.
+  - jupyterlab=3.4.4
 prefix: /opt/miniconda3/envs/vscode-demo
